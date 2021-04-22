@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1st Year Odd Semester"
+                android:background="#00fa00"
+                android:textColor="@color/black"
+                android:textSize="100px">
+
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TableRow
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:background="@color/black">
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nNo."
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nTitle"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Theory\n Hrs./Week"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sessional \nHrs/Week"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Credit"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="EEE 1101"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Electrical Circuit I"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="EEE 1102"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Electrical Circuit I \nSessional"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 1111"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Computer\n Programming"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 1112"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Computer\n Programming\n Sessional"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Math 1101"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Engg.\nMathematics I"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Phy 1111"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Physics"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="
+Phy 1112"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Physics\n Sessional"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.5"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Hum 1111"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Technical\nEnglish"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="
+Hum 1112"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Technical\n English \nSessional"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.5"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+<!--credit-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80px"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:text="Total Credit:19.50\n\n">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETAIL SYLLABUS"
+                android:textSize="100px"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="#00fa00">
+
+
+            </TextView>
+
+            <!--        Title-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="EEE 1101  (  Electrical Circuits I)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+
+            <!--description-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Introduction of electrical power sources, ideal and practical sources, linear circuit elements. DC analysis of series, parallel and series-parallel circuits. Kirchhoff’s Voltage and current laws, voltage, current, power and energy. Sinusoidal wave: Average and effective values, form factor, peak factor, phase relation and phasors. Steady state AC analysis of series, parallel and series parallel circuits, phase relation between voltage and current, concept of impedance, power, power factor, phasor diagram. Network theorems: Superposition theorem, Thevenin’s theorem, Norton’s theorem, maximum power transfer theorem, substitution theorem and reciprocity theorem. Frequency response of ac circuits, resonance phenomena.\n\n***
+
+Magnetic circuit and concepts: flux, fields, permeability reluctance, analysis of series, parallel and series- parallel magnetic circuit.\n\n"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="EEE 1102  (  Electrical Circuits I Sessional)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course EEE 1101\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 1111(   Computer Programming)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="***Introduction to digital computers. Programming languages, algorithms and flow charts. Structured programming using C: Variables and constants, operators, expressions, control statements, functions, array, pointer, structure union, user defined data types, input-output files./n/n***
+
+Object oriented programming using C++: Introduction, classes and objects; polymorphism; function and operator overloading; inheritance.\n\n">
+
+
+        </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 1112 ( Computer Programming Sessional)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="***Sessional based on the theory of course CSE 1111.\n\n">
+
+
+        </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Math 1101 (    Engg. Mathematics I)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Differential Calculus: Review of differentiation of various types of functions. Rolle’s theorem, Mean value theorem. Taylor’s and Maclaurin’s theorems in finite and infinite forms. Divergency and Convergency of series. Partial differentiation, Euler’s theorem. Tangent, normal and curvature. Determination of maximum and minimum values of functions and their application.\n\n***
+
+Integral Calculus: Review of indefinite and definite integration of various types of functions. Use of definite integration in summing series. Walli’s formulae. Improper integrals. Beta function and Gamma functions. Area under a plane curve and area of a region enclosed by two curves in cartesian and polar coordinates. Volume and surface areas of solids of revolution.\n\n***
+
+Co-ordinate Geometry: Co-ordinate geometry of three dimension- System of co-ordinates, transformation of co-ordinates, distance between two points, section formula, projection, direction cosines, equations of planes and lines.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Phy 1111 (Physics)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Atomic Structure: Thompsons, Rutherford and Bhor's atomic model. Atomic arrangement in solid. Different types of bonds in solid-metallic, Vander Walls and ionic bond.\n\n***
+
+Electronic structure of materials: Free electron theory, Metallic conduction. Energy bands, Brillouin zones, Temperature dependence of metallic conductivity. Semiconductors: Band theory, intrinsic and extrinsic semiconductors, Fermi levels, mobility and electrical conductivity, carrier diffusion and life time. Magnetic materials: Properties, Dia-, Para- and Ferro-magnetism. Hysteressis loop, B-H curve, Energy losses in magnetic materials and their measurements. Soft and hard magnetic materials, ferrities.\n\n***
+
+Thermal electricity: thermocouple, Seebeck effect, Peltier and Thompson effect, Thermo-emf.\n\n***
+
+Photoelectricity: Laws of photoemission and Einstein's equation. Photoelectric cell and its use.\n\n***
+
+Sound: Simple harmonic motion, wave equation, Principle of superposition. Beats, Dispersion, Phase and group velocities, Doppler's effect, Free and force vibrations.\n\n***
+
+Physical Optics: Theories of light; Hyugen's principle and construction. Interference of light: Young's double slit experiment, Fresnel bi-prism, Newton's ring, interferometers. Diffraction of light: Fresnel and Fraunhoffer diffraction, diffraction by single and double slit diffraction gratings. Polarization, production and analysis of polarized light, optical activity, optics of crystals.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Phy 1112(Physics Sessional)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course Phy 1111.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Hum 1111 (Technical English)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Grammar: Grammatical principles, modals, phrases and idioms, prefixes and suffixes, sentence structures,wh and yes/no questions, conditional sentences.\n\n***
+
+Vocabulary: Technical and scientific vocabulary, defining terms.\n\n***
+
+Spoken English: Introduction to phonetic symbols, dialogue, responding to particular situations, extempore speech.\n\n***
+
+Reading: Comprehension of technical and non-technical materials-skimming, scanning, inferring and responding to context.\n\n***
+
+Technical Writing: Paragraph and composition writing on scientific and other themes, report writing, research paper writing, library references..\n\n">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Hum 1112  (  Technical English Sessional)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Developing Reading Skill: Strategies of reading-skimming, scanning, predicting, inferencing; Analyzing and interpreting variety of texts; Practicing comprehension from literary and nonliterary texts.\n\n***
+
+Developing Writing Skill: Sentences, sentence variety, generating sentences; Clarity and correctness of sentences, linking sentences to form paragraphs, writing paragraphs, essays, reports, formal and informal letters.\n\n***
+
+Developing Listening Skill and Note Taking: Listening to recorded texts and class lectures and learning to take useful notes based on listening.\n\n***
+
+Developing Speaking Skill: Oral skills including communicative expressions for personal identification, life at home, giving advice and opinion, instruction and directions, requests, complains, apologies, describing people and places, narrating events.\n\n">
+
+
+            </TextView>
+
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
+
+
+
+

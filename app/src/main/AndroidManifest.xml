@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruetsyllabus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RUETSyllabus">
+        <activity android:name=".Ecefe"></activity>
+        <activity android:name=".Ecefo" />
+        <activity android:name=".Eeefoe" />
+        <activity android:name=".Eeefoo" />
+        <activity android:name=".Eeete" />
+        <activity android:name=".Eeeto" />
+        <activity android:name=".Eeese" />
+        <activity android:name=".Eeeso" />
+        <activity android:name=".Eeefe" />
+        <activity android:name=".Mefoe" />
+        <activity android:name=".Mefoo" />
+        <activity android:name=".Mete" />
+        <activity android:name=".Meto" />
+        <activity android:name=".Mese" />
+        <activity android:name=".Meso" />
+        <activity android:name=".Mefe" />
+        <activity android:name=".Csefoe" />
+        <activity android:name=".Csefoo" />
+        <activity android:name=".Csete" />
+        <activity android:name=".Cseto" />
+        <activity android:name=".Csese" />
+        <activity android:name=".Cseso" />
+        <activity android:name=".CSefe" />
+        <activity android:name=".Mefo" />
+        <activity android:name=".Eeefo" />
+        <activity android:name=".Csefo" />
+        <activity android:name=".Semester" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RUETSyllabus.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

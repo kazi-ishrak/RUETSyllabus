@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2nd Year Even Semester"
+                android:background="#00fa00"
+                android:textColor="@color/black"
+                android:textSize="100px">
+
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TableRow
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:background="@color/black">
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nNo."
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nTitle"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Theory \nHrs./Week"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sessional \nHrs/Week"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Credit"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 2201"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" Computer\n Algorithms"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 2202"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" Sessional \nBased on \n
+CSE 2201"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" CSE 2203"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Digital Techniques"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 2204"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional\n Based on
+\nCSE 2203"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" CSE 2205"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Finite\n Automata Theory"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 2206"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional\n Based on \n
+CSE 2205"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3/2"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="EEE 2251"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Electrical\n Machines and\n
+Instrumentations"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="EEE 2252"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional \nBased on \n
+EEE 2251"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3/2"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Math 2213"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Complex Variable,\n
+Differential Equations \n
+and Harmonic Analysis"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80px"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:text="Total Credit:19.50\n\n">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETAIL SYLLABUS"
+                android:textSize="100px"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="#00fa00">
+
+
+            </TextView>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 2201 ( Computer Algorithms)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Asymptotic notations: Complexity analysis of algorithms, worst case, best case and
+average case.
+Sorting algorithms: Divide and Conquer approach, Merge Sort and Quick Sort Algorithm,
+complexity analysis, worst and average case analysis, Heap Construction Algorithm, Heap
+sort, Application of Heap: Priority Queue, Decision tree model and (worst case) lower
+bound on sorting, Sorting in linear time - radix sort, bucket sort, counting sort, etc.
+Graph algorithms: Representation of Graphs, Breadth First Search, Depth First Search,
+Minimum Spanning Tree, Kruskal and Prims Algorithm.\n\n***
+Shortest Path: Dijkstra‟s Algorithm, Bellman-Ford Algorithm. Floyd Warshall Algorithm.
+Searching algorithms: Binary search trees, balanced binary search trees, AVL trees and
+red-black trees, B-trees, skip lists, hashing. Priority queues, heaps, Interval trees.
+Dynamic Programming: Longest Common Subsequence (LCS), Matrix Chain
+Multiplication (MCM)\n\n***
+
+
+Greedy Algorithm: Greedy Algorithm, Activity Selection Problem, Huffman Codes and it‟s
+application, Knapsack problem, Traveling Salesperson Problem.\n\n***
+Recurrences and Backtracking: Recurrences, NP-Hard and NP-Complete Problems,
+Backtracking, n-Queen Problem, Branch and Bounds.\n\n***
+Reducibility between problems and NP-completeness: Lower bound theory,
+Discussion of different NP-complete problems like satisfiability, clique, vertex cover,
+independent set, Hamiltonian cycle, TSP, knapsack, set cover, bin packing, etc.
+Computational Geometry, Line Segment Properties, Convex Hull, Graham Scan Algorithm
+of Convex Hull.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 2202 (Sessional based on CSE 2202)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course CSE 2201.\n\n">
+
+
+            </TextView>
+
+    <!--        Title-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="90px"
+        android:text="CSE 2203(Digital Techniques)\n\n"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+
+    </TextView>
+
+    <!--description-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:text="***Information and digital Systems: Introduction to digital systems, Number Systems,
+weighted and non-weighted codes, error detection code, Binary addition and subtraction,
+2‟s compliment methods.\n\n***
+Boolean Algebra and Combinational Logic Circuits: Digital logic, Boolean algebra,
+Boolean function, Canonical forms, Karnaugh Maps, Minimization of Boolean functions,
+Logic gates and their truth tables, Design methodologies, Combinational logic circuit
+design, Arithmetic and data handling logic circuits. Decoders, Encoders, Multiplexer,
+Demultiplexer.\n\n***
+Flip Flop and Sequential Logic Circuits: Transistor Latch, NAND gate latch, NOR gate
+latch, D latch. Clock signals and Clocked FFs: Clocked SR, JK and D Flip-Flops,
+Master/Slave JK FF, timing diagram of different FFs, Edge-triggered and level-triggered
+timing diagrams. , Counters, registers, memory devices and their applications. \n\n***
+Technology parameters: Fan in, Fan out, Propagation delay, Power dissipation and
+noise immunity.\n\n***
+Others: Diode logic gates, transistor gates, MOS gates, Logic Families: TTL and CMOS
+logic with operation details.\n\n"
+
+        >
+    </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 2204 (  Sessional based on CSE 2203)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course CSE 2203\n\n">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 2205 (Finite Automata Theory)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Finite State Machine: Fundamental of finite state machine, state equivalence and
+minimization of machine, incompletely specified machine and minimal machine, merger
+graph and compatibility graph, finite memory and definite memory machine, information
+lossless machine and inverse machine.\n\n***
+Finite Automata: Introduction to finite automata, structural representations, automata and
+complexity, An informal picture of finite automata, Deterministic finite automata, nondeterministic finite automata, an application (i.e. text search or other), finite automata with
+Epsilon-Transitions.\n\n***
+Regular Expressions and Languages: Regular expressions, finite automata and regular
+expression, application of regular expressions, algebraic laws for regular expressions;
+Closure properties of regular language, Decision properties of regular languages,
+equivalence and minimization of automata.\n\n***
+Context-Free Grammar and Languages: Context-free grammars, parse trees,
+application of context-free grammars, ambiguity in grammars and languages, Normal
+forma for context-free grammars, the pumping lemma for context-free languages, closure
+properties of context-free languages, decision properties of CFL‟s.\n\n***
+Pushdown Automata: Definition of the pushdown automata, the languages of a PDA,
+equivalence of PDA‟s and CFG‟s, deterministic pushdown automata.\n\n***
+Introduction to Turing Machines: The turing machine, programming techniques for
+turing machines, Extensions to the basic turing machine, restricted turing machines, turing
+machines and computers.\n\n***
+Undecidability: A language that is not recursively enumerable, an undecidable problem
+that is RE, undecidable problems about turing machines, post‟s correspondence problem,
+other undecidable problems.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 2206 (Sessional based on CSE 2205)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course CSE 2205.\n\n
+">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="EEE 2251(Sessional based on EEE 2151)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***DC Machines: Operation and performance characteristics of generators and motors.
+Starting, speed control and braking of motors. Different application of DC motors. \n\n***
+AC Machines: Transformer: Principle of operation of transformer. Single phase induction
+motors and its methods of starting.\n\n***
+Synchronous Machines and Motors: Principles of operation and equivalent circuit.
+Method of synchronization. Special motors: Stepper motor, Servomotor, Brush less
+motors.\n\n***
+Measuring Instruments: Electromechanical and electronic meters and their uses.
+Extension of Instrument range.\n\n***
+Transducers: Different types of transducers and their principle of operations: Position and
+displacement Transducers, Potentiometer, Linear variable differential transformers
+(LVDT), Pressure transducer, Temperature transducer, Optical transducer, Ultrasonic
+transducer; Humidity transducer, Hall Effect transducer, and Speed transducer.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="EEE 2252(Sessional based on EEE-2251)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course EEE 2221.\n\n">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="Math 2213 (Complex Variable, Differential Equations and
+Harmonic Analysis)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Complex Variable : Complex number systems, General functions of a complex variable, 
+Limits and continuity of a function of complex variable and related theorems, Complex 
+differentiation and the Cauchy-Riemenn equations, Infinite series, Convergence, Line 
+integral, Cauchy integral theorem, Cauchy integral formula, Liouville's theorem, Taylor's 
+and Laurent's theorems, Singular points, Residue, Cauchy's residue theorem, Contour 
+integration.\n\n***
+Differential Equations: Series solution: Singular points, Series solutions: Frobenius 
+method, Bessel's and Legender‟s differential equations. 
+Partial differential equation: Partial differential equations, Solution of first order partial 
+differential equation by Lagrange and Charpit methods, Solution of Laplace equation and 
+wave equation.\n\n***
+Harmonic Analysis and Laplace Transform: Fourier series and Fourier transformations 
+and its applications to solve boundary value problems. Laplace transforms, Inverse 
+Laplace transforms, Solution of differential equation by Laplace transforms.\n\n">
+
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

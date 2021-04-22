@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3rd Year Odd Semester"
+                android:background="#00fa00"
+                android:textColor="@color/black"
+                android:textSize="100px">
+
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TableRow
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:background="@color/black">
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nNo."
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Course \nTitle"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Theory \nHrs./Week"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sessional \nHrs/Week"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+                            <TextView
+
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Credit"
+                                android:textColor="#ffffff"
+                                android:textSize="20dp" />
+
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3100"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" Web Based\n Application\n
+Lab/Project"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3/2"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3101"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" Database \nSystems"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" CSE  3102"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional\n Based on \nCSE
+3101"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3103"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Data Communication"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text=" CSE 3104"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional \nBased on\n CSE
+3103"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3/2"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3105"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Software\n Engineering"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3107"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Applied Statistics \nand\n
+Queuing Theory"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3109"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Microprocessors \nand \n
+Assembly Language"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3.00"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3110"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Sessional \nBased on \nCSE
+3109"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="1.50"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="CSE 3112"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="Technical Writing\n and
+Presentation"
+                                android:textColor="@color/black"
+                                android:textSize="40px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="3/2"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="18dip"
+                                android:text="0.75"
+                                android:textColor="@color/black"
+                                android:textSize="50px">
+
+                            </TextView>
+
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80px"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:text="Total Credit:20.25\n\n">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETAIL SYLLABUS"
+                android:textSize="100px"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="#00fa00">
+
+
+            </TextView>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3100 ( Web Based Application Lab/Project)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Students will work in groups or individually to develop web based applications and design
+a web site by adding client side and server side scripting and interfacing the web
+applications to a database.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3101 (Sessional based on CSE 2202)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Concepts of database systems: Files and Databases, Database Management Systems;
+Transaction management, Structure of a DBMS, Applications.\n\n***
+Entity-Relationship concepts: Entity types, Entity set, Attribute and key, Relationships,
+Relation types, Entity relationship, ER modeling, ER diagrams, Database design using ER
+diagrams, Enhanced Entity-Relationship (EER) model.\n\n***
+Normalization: Normal forms, Normalized Relations and Database performance; Denormalization.
+Relational model: Structure of relational databases, Relational algebra, Relational
+algebra operations, Modification of the database, Introduction to views, Pitfalls in relational
+database design.\n\n****
+SQL: Data Definition Language, Data Manipulation Language, Basics of SQL, Query
+designing in SQL using aggregate functions and nested queries, Embedded SQL,
+Triggers, Procedures; Indexes; Declarative Constrains and Database Triggers.
+Concurrency control: Lock based protocols, Timestamp based protocols, Validation
+based protocols, Deadlock.\n\n***
+
+Recovery system: Failure classification, Storage structure, Recovery and atomicity, Logbased recovery, Recovery with concurrent transactions, Advanced recovery techniques,
+RAID model.\n\n***
+Advanced database management systems: No SQL Systems, distributed systems,
+object-oriented System, Temporal, Database Security, Data Warehousing and Data
+Mining, Database Administration and Tuning.\n\n
+
+">
+
+
+            </TextView>
+
+            <!--        Title-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3102(Sessional based on CSE 3101)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+
+            <!--description-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course CSE 3101.\n\n"
+
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3103( Data Communication)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Fundamental: Representation of signals in time and frequency domain, properties of
+fourier transform, delta function, auto-correlation and cross-correlation.\n\n***
+Data Communication and Network Model: Data communication, fundamental of
+networks, History of the internet, protocols and standards.\n\n***
+Signal and System, Transmission Media, Interfaces: Analog and digital data, periodic
+analog signals, digital signals, Transmission impairment, data rate limits and performance.\n\n****
+Digital and Analog Transmission: Digital to digital conversion, line encoding schemes,
+block coding, scrambling, analog to digital conversion, transmission modes, digital to
+analog conversion, bandwidth utilization, analog to digital conversion.\n\n***
+Multiplexing, Spreading and Switching: Multiplexing, spread spectrum, packet-switched
+data networks, circuit switched data networks, virtual circuit networks.\n\n***
+Transmission Medium: Guided media and unguided media.\n\n">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3104(Sessional based on CSE 3103)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on the theory of course CSE 3103.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3105 (Software Engineering)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Introduction: Introduction to software and its nature, software engineering methods,
+professional and ethical responsibility of a software engineer. \n\n***
+Software Process Model: Different types of software process model and their
+implementations, costs of software engineering, \n\n***
+
+Software Requirement Analysis: Software Requirements analysis and their applications,
+software Prototyping, Basic concepts of different formal software specification,
+Design of Software: Software Design and its different techniques, Software configuration
+managements. System structuring, control models, modular decomposition, domainspecific architecture, \n\n***
+Software Testing: Software Validation and Verification: Verification and validation
+planning, Software‟s testing strategies and different type of testing techniques, Art of
+debugging.\n\n***
+Software Quality Assurance: Management and its quality assurance, Software Cognitive
+fundamentals, Concepts of software reengineering and Web engineering. \n\n***
+Advance Topics: Software reliability metrics, software reliability specification, statistical
+testing and reliability growth modeling, Use of CASE tools and technological support in
+engineering software, introduction to unified modeling language–UML.\n\n
+">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3107(Applied Statistics and Queuing Theory)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Introduction: Statistics and its importance, Population and Sample, Variable and
+Constants, Statistical data, Data Collection and presentation, Construction of Frequency
+distribution and Graphical presentation.\n\n***
+Measures of Central Tendency: Arithmetic Mean, Geometric Mean, Harmonic Mean,
+Median, Mode, Weighted Mean.\n\n***
+Measures of Dispersion: Range, Standard Deviation, Variance, Moments, Skewness
+and Kurtosis.\n\n***
+Correlation Theory: Linear Correlation and its measures and significance, Rank
+Correlation.\n\n***
+Regression Analysis: Linear and non-linear regression, Least-square method of curve
+fittings.\n\n***
+Probability: Elementary Concepts, Laws of Probability – Additive and Multiplicative Law,
+Conditional Probability and Bay‟s theorem, Random Variables, Mathematical Expectation.
+Probability Distributions: Binomial distribution, Poisson distribution and Normal
+distribution.\n\n***
+Queuing Theory: Stochastic processes, discrete time Markov chain and continuous time
+Markov Chain. Birth-death process in queuing. Queuing models:
+M/M/1,M/M/C,M/G/1,M/D/1,G/M/1 solution of network of queue-closed queuing models
+and approximate models. Application of queuing models in Computer Science.\n\n">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3109(Microprocessors and Assembly Language)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Microcomputer System: Introduction to different types of microprocessors and its
+applications, organization of Intel 8086/8088 Microprocessor, the component of
+microcomputer system, I/O device, Interrupt Structures, I/O interfacing, DMA, Coprocessors, RISC processors, Power PC processor, CISC processor, Direct video RAM
+accessing, Memory module. \n\n***
+Introduction of Assembly Language: Program structure and it components, few basic
+instruction, input/output instruction.\n\n***
+Flag Register and Flow Control: The flag register, flow control instructions, conditional
+and unconditional jumps, branching and looping structures.\n\n***
+Logic and Arithmetic Operation: Logic, Shift and Rotate Instruction, multiplication and
+division Instructions.\n\n***
+Arrays and Data Structure: Arrays and related addressing modes, DUP operator,
+register indirect modes, Based and Indexed addressing modes, basic stack operations,
+procedures declaration, communication between procedures, calling a procedure. \n\n***
+String Manipulation: The string instructions, director flag, moving a string, storing a
+string, Loading a string, scanning a string, comparing strings, substring operation.\n\n">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="90px"
+                android:text="CSE 3110(Sessional based on CSE 3109)\n\n"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:textStyle="bold"
+                android:text="***Sessional based on CSE 3109\n\n">
+
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
